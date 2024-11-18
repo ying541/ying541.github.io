@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>思维导图工具</title>
+      <link href="/2024/06/09/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%B7%A5%E5%85%B7/"/>
+      <url>/2024/06/09/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="思维导图——思维工具"><a href="#思维导图——思维工具" class="headerlink" title="思维导图——思维工具"></a>思维导图——思维工具</h1><p>注：好像强调发散思维</p><h2 id="1-认识"><a href="#1-认识" class="headerlink" title="1.认识"></a>1.认识</h2><pre><code>1.最初，因为想变得聪明、学习更厉害，渐渐接触了思维导图。2.1.最初，在学习新知识时，将其作为一个记忆/记录工具使用。2.2.后面，自己时常会有一些想法，多了以后，我就梳理一下形成思维导图。3.随后就简单了，有啥想法的话，就往之前的思维导图里面添加，慢慢修改。  思维导图会显得臃肿，或是模块太多；    内容会显得不够精简，或是之间的联系不是很符合逻辑。4.就现在来说，我还是弄出来了一个基础模型的。</code></pre><h2 id="2-工具"><a href="#2-工具" class="headerlink" title="2.工具"></a>2.工具</h2><p>注：思维导图工具感觉现在很多，记事本也有，说一下我使用的</p><blockquote><p>Thebrain</p></blockquote><p>注：友情链接中分享有供离线使用的激活方式</p><p><a href="https://thebrain.com"><img data-ignore border="0" src="/img/官网图片/Thebrain.jpg" width="100%" height="auto" alt="thebrain界面"></a></p><h2 id="3-大模型"><a href="#3-大模型" class="headerlink" title="3.大模型"></a>3.大模型</h2><p>注：先不分享了，感觉有点羞耻。以后可有机会分享。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 思维导图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用 Hexo + GitHub Pages 搭建个人博客</title>
+      <link href="/2024/06/09/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2024/06/09/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="博客搭建——建立自己的个人博客"><a href="#博客搭建——建立自己的个人博客" class="headerlink" title="博客搭建——建立自己的个人博客"></a>博客搭建——建立自己的个人博客</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在开始动手搭建博客之前，我们需要了解将要使用的主要工具：</p><ul><li><strong>Hexo</strong>：一个快速、简洁且高效的静态博客框架</li><li><strong>GitHub Pages</strong>：免费的静态网站托管服务</li></ul><p><strong>前提</strong>：Node.js、Git、Github账号</p><h2 id="1-Github创建一个公共仓库"><a href="#1-Github创建一个公共仓库" class="headerlink" title="1.Github创建一个公共仓库"></a>1.Github创建一个公共仓库</h2><blockquote><p>1.1.仓库名：用户名.github.io</p></blockquote><blockquote><p>1.2.打开GitHub Pages设置</p></blockquote><h2 id="2-安装Node-js、Git"><a href="#2-安装Node-js、Git" class="headerlink" title="2.安装Node.js、Git"></a>2.安装Node.js、Git</h2><h2 id="3-安装hexo并初始化"><a href="#3-安装hexo并初始化" class="headerlink" title="3.安装hexo并初始化"></a>3.安装hexo并初始化</h2><blockquote><p>3.1.安装指令：npm install hexo-cli -g</p></blockquote><blockquote><p>3.2.初始化（如下）</p></blockquote><pre><code>mkdir bloghexo init blog  ——初始化一个博客根目录cd blognpm install     ——下载必要组件</code></pre><blockquote><p>注意：（Windows用户特别说明：PowerShell执行策略）</p></blockquote><pre><code>1. 检查当前执行策略：Get-ExecutionPolicy2. 修改执行策略：Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</code></pre><h2 id="4-下载并配置主题"><a href="#4-下载并配置主题" class="headerlink" title="4.下载并配置主题"></a>4.<a href="https://hexo.io/themes/">下载</a>并配置主题</h2><blockquote><p>1.安装主题：</p></blockquote><ul><li>将下载的主题文件解压到hexo博客目录的themes文件夹下。</li></ul><blockquote><p>2.应用主题：</p></blockquote><ul><li>修改根目录_config.yml配置文件(theme: my-theme-name)</li></ul><blockquote><p>3.调整主题：</p></blockquote><ul><li>每个主题都有一个单独的_config.yml配置文件,存放在theme&#x2F;your-theme-name目录下。</li></ul><p>注：主题所在仓库的自述部分、配置文件config.yml内基本都会有配置修改说明。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Github快速访问</title>
+      <link href="/2024/06/09/Github%E5%BF%AB%E9%80%9F%E8%AE%BF%E9%97%AE/"/>
+      <url>/2024/06/09/Github%E5%BF%AB%E9%80%9F%E8%AE%BF%E9%97%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="访问国际网络"><a href="#访问国际网络" class="headerlink" title="访问国际网络"></a>访问国际网络</h1><p>注：仅供学习交流使用</p><h2 id="1-通过V2ray"><a href="#1-通过V2ray" class="headerlink" title="1.通过V2ray"></a>1.通过V2ray</h2><pre><code>1.1.下载程序V2rayN（Windows）、V2rayNG</code></pre><p><a href="https://github.com/2dust/v2rayN/releases">V2rayN(with-core.zip)</a>、<a href="https://github.com/2dust/v2rayNG/releases">V2rayNG</a></p><pre><code>1.2.添加节点例如： vless://cfd0935c-8dda-4243-9622-dc2fe8f868c8@59.3.3.161:443?encryption=none&amp;security=tls&amp;sni=2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com&amp;type=ws&amp;host=2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com&amp;path=%2Fpasge.pages.dev%2F%3Fed#Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0%7C%E6%B7%B1%E6%B8%AF%E9%9A%A7%E9%81%93%7C%E6%B5%81%E5%AA%92%E4%BD%93%E8%A7%A3%E9%94%81</code></pre><h2 id="2-使用VPN"><a href="#2-使用VPN" class="headerlink" title="2.使用VPN"></a>2.使用VPN</h2><pre><code>2.1推荐protonvpn（免费、开源、无限）</code></pre><p><a href="https://github.com/ProtonVPN/win-app/releases">电脑端</a>、<a href="https://github.com/ProtonVPN/android-app/releases">安卓手机端</a></p><pre><code>注：使用有效邮箱注册</code></pre><p>注：前者快速、后者稳定</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> V2ray </tag>
+            
+            <tag> VPN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>人工智障</title>
+      <link href="/2024/06/06/%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C/"/>
+      <url>/2024/06/06/%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="人工智能——提效工具（检索、知识整理、内容生成等）"><a href="#人工智能——提效工具（检索、知识整理、内容生成等）" class="headerlink" title="人工智能——提效工具（检索、知识整理、内容生成等）"></a>人工智能——提效工具（检索、知识整理、内容生成等）</h1><h2 id="1-国产大模型"><a href="#1-国产大模型" class="headerlink" title="1.国产大模型"></a>1.国产大模型</h2><pre><code>通义千问：阿里云推出的一个超大规模的语言模型。文心一言：百度全新一代知识增强大语言模型。豆包：字节跳动公司基于云雀模型开发的人工智能。讯飞星火：科大讯飞推出的语言模型。智谱清言：由清华大学计算机系知识工程实验室开发的语言模型。注：排列顺序无任何意义</code></pre><h2 id="2-开源大模型"><a href="#2-开源大模型" class="headerlink" title="2.开源大模型"></a>2.开源大模型</h2><pre><code>2.1.举例：LLaMA、Phi、Gemma等</code></pre><p>&nbsp;&nbsp;<a href="https://llama.family">llama中文社区</a></p><pre><code>2.2.聚集地：Hugging Face、魔塔社区    </code></pre><p>&nbsp;&nbsp;<a href="https://modelscope.cn">魔塔社区ModelScop</a></p><pre><code>2.3.简单部署: GPT4-All——全名GPT for all，一个开源项目</code></pre><p><a href="https://gpt4all.io/"><img data-ignore border="0" src="/img/官网图片/GPT4-All.jpg" width="100%" height="auto" alt="GPT4-All" title="网站图片"></a></p><h2 id="3-国外大模型"><a href="#3-国外大模型" class="headerlink" title="3.国外大模型"></a>3.国外大模型</h2><pre><code>Claude（感觉特别不错）、ChatGPT、Gemini等注：通常需要谷歌或者苹果账号登录，甚至国外手机号码身份验证</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 人工智能 </tag>
+            
+            <tag> Ai </tag>
+            
+            <tag> GPT4-All </tag>
+            
+            <tag> ChatGPT </tag>
+            
+            <tag> Claude </tag>
+            
+            <tag> 国产大模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苹果Mac虚拟机</title>
+      <link href="/2024/06/06/%E8%8B%B9%E6%9E%9CMac%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <url>/2024/06/06/%E8%8B%B9%E6%9E%9CMac%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="黑苹果——Mac虚拟机"><a href="#黑苹果——Mac虚拟机" class="headerlink" title="黑苹果——Mac虚拟机"></a>黑苹果——Mac虚拟机</h1><p>注：虚拟机中试用Mac系统（轻度使用，性能有限）</p><p><a href="https://pgdmg.com/macos-vm"><img data-ignore border="0" src="/img/官网图片/Mac虚拟机.jpg" width="100%" height="auto" alt="Mac虚拟机" title="网站图片"></a></p><blockquote><p>1、下载安装VMware</p></blockquote><blockquote><p>2、下载工具并执行脚本</p></blockquote><blockquote><p>3、创建虚拟机并修改部分配置</p></blockquote><blockquote><p>备注：网站内有详细教程，友情链接中有可用系统文件及相关工具</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 黑苹果 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>平板+Windows</title>
+      <link href="/2024/06/06/%E5%B9%B3%E6%9D%BF+Windows/"/>
+      <url>/2024/06/06/%E5%B9%B3%E6%9D%BF+Windows/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Mindows——将Windows系统安装到安卓手机（平板）"><a href="#Mindows——将Windows系统安装到安卓手机（平板）" class="headerlink" title="Mindows——将Windows系统安装到安卓手机（平板）"></a>Mindows——将Windows系统安装到安卓手机（平板）</h1><p>注：可以覆盖Android，或是双系统灵活切换</p><p><a href="https://mindows.cn/"><img data-ignore border="0" src="/img/官网图片/Mindows.jpg" width="100%" height="auto" alt="Mindows" title="网站图片"></a></p><pre><code>1、下载工具箱2、下载系统文件3、按照官网教程操作备注：有交流群（官网找），可以向群成员请教</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mindows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
